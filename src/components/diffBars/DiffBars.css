@@ -1,0 +1,10 @@
+#diff_bars {
+    display: flex;
+    column-gap: 0.4rem;
+    align-items: center;
+    justify-content: center;
+}
+
+#diff_bars > h2 {
+    margin-right: 0.5rem;
+}

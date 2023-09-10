@@ -1,0 +1,24 @@
+#container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 1rem 0;
+}
+
+#checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #24232C;
+    margin: 0 0.5rem 0 0;
+    font: inherit;
+    width: 1rem;
+    height: 1rem;
+    box-sizing: border-box;
+    border: 0.15rem solid #E6E5EA;
+}
+
+#checkbox:checked {
+    border: none;
+    background: #A4FFAF url("../../assets/icon-check.svg") no-repeat 50% 50%;
+}

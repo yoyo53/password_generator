@@ -1,0 +1,26 @@
+#rectangle {
+    height: 1.5rem;
+    width: 0.5rem;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#rectangle.white {
+    border: 2px solid #E6E5EA;
+}
+
+#rectangle.green {
+    background-color: #A4FFAF;
+}
+
+#rectangle.yellow {
+    background-color: #F8CD65;
+}
+
+#rectangle.orange {
+    background-color: #FB7C58;
+}
+
+#rectangle.red {
+    background-color: #F64A4A;
+}
